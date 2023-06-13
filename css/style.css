@@ -3344,14 +3344,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 .no-webp header {
-  background: url("../img/Milky Way.png") no-repeat !important; }
+  background: url("../img/Milky Way.png") no-repeat center 300px !important; }
 
 header {
   font-family: "Oxanium";
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-position: center 300px !important;
 }
 
 header .container nav {
@@ -3954,11 +3953,10 @@ body.hide {
 }
 
 .no-webp .support {
-  background: url("../img/Blur.png") no-repeat !important; }
+  background: url("../img/Blur.png") -600px no-repeat !important; }
 
 .support {
   padding: 250px 0 250px 0;
-  background-position: -600px !important;
 }
 
 .support .container .text .top-text p {
@@ -4040,12 +4038,7 @@ body.hide {
 }
 
 .no-webp .how-works {
-  background: url(../img/Blur2.png) no-repeat !important; }
-
-.how-works {
-  background-position: center -60px !important;
-  background-size: 450px !important;
-}
+  background: url(../img/Blur2.png) no-repeat center -60px/450px 450px !important; }
 
 .how-works .container .title h3 {
   font-family: "Oxanium";
@@ -4213,11 +4206,7 @@ body.hide {
 }
 
 .no-webp .tranding {
-  background: url("../img/Blur.png") no-repeat !important; }
-
-.tranding {
-  background-position: -400px -120px !important;
-}
+  background: url("../img/Blur.png") -400px -120px no-repeat !important; }
 
 .tranding .container .text .top-text p {
   font-family: "Lato";
@@ -4539,10 +4528,9 @@ body.hide {
 }
 
 .no-webp .live-auction {
-  background: url("../img/Blur.png") no-repeat !important; }
+  background: url("../img/Blur.png") -400px -120px no-repeat !important; }
 
 .live-auction {
-  background-position: -400px -120px !important;
   margin-top: 300px;
 }
 
@@ -4866,11 +4854,10 @@ body.hide {
 }
 
 .no-webp .influencers {
-  background: url("../img/Blur.png") no-repeat !important; }
+  background: url("../img/Blur.png") -110px 0 no-repeat !important; }
 
 .influencers {
   margin-top: 300px;
-  background-position: center -110px !important;
 }
 
 .influencers .container .text .top-text p {
@@ -4957,6 +4944,9 @@ body.hide {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 32px 25px;
   background: -o-linear-gradient(302.25deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
   background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
@@ -4984,7 +4974,7 @@ body.hide {
   position: relative;
 }
 
-.influencers .container .cards .wrraper-cards .influen-nft .top .nft_last img {
+.influencers .container .cards .wrraper-cards .influen-nft .top .nft_last .first img {
   width: 185px !important;
   height: 190px;
   -o-object-fit: cover;
@@ -4992,10 +4982,12 @@ body.hide {
   border-radius: 15px;
 }
 
-.influencers .container .cards .wrraper-cards .influen-nft .top .nft_last img:last-child {
+.influencers .container .cards .wrraper-cards .influen-nft .top .nft_last .more img {
   width: 115px !important;
+  height: 190px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 15px;
 }
 
 .influencers .container .cards .wrraper-cards .influen-nft .top .avatar {
@@ -5145,13 +5137,16 @@ body.hide {
 }
 
 .email {
-  background-image: url(/img/pic.webp);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/pic.webp);
   background-color: 0.2039215686;
   position: relative;
 }
 
 .no-webp .email:after {
-  background: url("img/Blur.png") no-repeat; }
+  background: url("../img/Blur.png") 800px/800px 800px no-repeat !important; }
 
 .email:after {
   content: "";
@@ -5163,8 +5158,6 @@ body.hide {
   opacity: 0.5;
   position: absolute;
   display: block;
-  background-position: 800px;
-  background-size: 800px;
 }
 
 .email .container {
@@ -5826,11 +5819,11 @@ footer .container .last ul li a:hover {
 }
 
 @media (max-width: 370px) {
-  .influencers .container .cards .wrraper-cards .influen-nft .top .nft_last img {
+  .influencers .container .cards .wrraper-cards .influen-nft .top .nft_last .first img {
     max-width: 135px !important;
   }
 
-  .influencers .container .cards .wrraper-cards .influen-nft .top .nft_last img:last-child {
+  .influencers .container .cards .wrraper-cards .influen-nft .top .nft_last .more img {
     max-width: 115px !important;
     max-height: 190px !important;
   }
@@ -5844,16 +5837,16 @@ footer .container .last ul li a:hover {
   }
 }
 
-.webp header { background: url("../img/Milky Way.png") no-repeat !important; }
+.webp header { background: url("../img/Milky Way.png") no-repeat center 300px !important; }
 
-.webp .support { background: url(../img/Blur.webp) no-repeat !important; }
+.webp .support { background: url(../img/Blur.webp) -600px no-repeat !important; }
 
-.webp .how-works { background: url(../img/Blur2.webp) no-repeat !important; }
+.webp .how-works { background: url(../img/Blur2.webp) no-repeat center -60px/450px 450px !important; }
 
-.webp .tranding { background: url(../img/Blur.webp) no-repeat !important; }
+.webp .tranding { background: url(../img/Blur.webp) -400px -120px no-repeat !important; }
 
-.webp .live-auction { background: url(../img/Blur.webp) no-repeat !important; }
+.webp .live-auction { background: url(../img/Blur.webp) -400px -120px no-repeat !important; }
 
-.webp .influencers { background: url(../img/Blur.webp) no-repeat !important; }
+.webp .influencers { background: url(../img/Blur.webp) -110px 0 no-repeat !important; }
 
-.webp .email:after { background: url(img/Blur.webp) no-repeat; }
+.webp .email:after { background: url(../img/Blur.webp) 800px/800px 800px no-repeat !important; }
